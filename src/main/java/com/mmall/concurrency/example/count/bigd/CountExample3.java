@@ -59,6 +59,10 @@ public class CountExample3 {
         log.info(">>>>>>>>>>>> : count:{}", count);
     }
 
+    /**
+     * 使用 synchronized 修饰静态方法
+     * @throws InterruptedException
+     */
     private static synchronized void add() throws InterruptedException{
         count.incrementAndGet();
     }
