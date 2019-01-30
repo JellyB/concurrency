@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d712ec5-6119-475e-981d-a714c575c813" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedStaticMethodAndClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncStaticMethod.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedCodeBlockAndMethod.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedCodeBlockAndMethod.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncCodeBlockResult.json" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncCodeBlockResult.json" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncMethodResult.json" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncMethodResult.json" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncchronizedCodeBlockUseDifferentObject.json" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncchronizedCodeBlockUseDifferentObject.json" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncMethodUseDifferentObject.json" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncMethodUseDifferentObject.json" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,14 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SynchronizedCodeBlockAndMethod.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedCodeBlockAndMethod.java">
+      <file leaf-file-name="SynchronizedStaticMethodAndClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedStaticMethodAndClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="50" column="80" lean-forward="false" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
+            <state relative-caret-position="162">
+              <caret line="35" column="87" lean-forward="false" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="syncStaticMethod.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncStaticMethod.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-133">
+              <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,11 +71,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/atomic/bigd/AtomicExample5.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/atomic/bigd/AtomicExample6.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedExample1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncCodeBlockResult.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncchronizedCodeBlockUseDifferentObject.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncMethodUseDifferentObject.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncMethodResult.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncCodeBlockResult.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedCodeBlockAndMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncStaticMethod.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedStaticMethodAndClass.java" />
       </list>
     </option>
   </component>
@@ -651,32 +665,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedCodeBlockAndMethod">
+  <component name="RunManager" selected="Application.SynchronizedStaticMethodAndClass">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="AtomicExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mmall.concurrency.example.atomic.bigd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.example.atomic.bigd.AtomicExample3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="concurrency" />
-      <envs />
     </configuration>
     <configuration name="AtomicExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -743,6 +738,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="concurrency" />
+      <envs />
+    </configuration>
+    <configuration name="SynchronizedStaticMethodAndClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.concurrency.example.sync.bigd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.example.sync.bigd.SynchronizedStaticMethodAndClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -836,19 +850,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConcurrencyApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AtomicExample3" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AtomicExample4" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AtomicExample5" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AtomicExample6" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SynchronizedCodeBlockAndMethod" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AtomicExample4" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AtomicExample5" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AtomicExample6" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SynchronizedCodeBlockAndMethod" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SynchronizedStaticMethodAndClass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SynchronizedCodeBlockAndMethod" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AtomicExample6" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AtomicExample5" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AtomicExample4" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AtomicExample3" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SynchronizedStaticMethodAndClass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SynchronizedCodeBlockAndMethod" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AtomicExample6" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AtomicExample5" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AtomicExample4" />
       </list>
     </recent_temporary>
   </component>
@@ -866,12 +880,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548741058325</updated>
       <workItem from="1548741060626" duration="570000" />
-      <workItem from="1548741713524" duration="12960000" />
+      <workItem from="1548741713524" duration="14436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13530000" />
+    <option name="totallyTimeSpent" value="15006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -890,7 +904,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31402832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43886745" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -900,8 +914,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35521236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3848134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2910663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.036036037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2665706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -961,7 +975,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1294,15 +1308,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncCodeBlockResult.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="6" column="83" lean-forward="true" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncchronizedCodeBlockUseDifferentObject.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncCodeBlockUseDifferentObject.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
@@ -1324,18 +1330,52 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncMethodUseDifferentObject.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncMethodResult.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="66" lean-forward="false" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        <state relative-caret-position="100">
+          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncCodeBlockResult.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedCodeBlockAndMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="50" column="80" lean-forward="false" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
+        <state relative-caret-position="357">
+          <caret line="52" column="84" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="52" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/syncStaticMethod.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/sync/bigd/SynchronizedStaticMethodAndClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="35" column="87" lean-forward="false" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

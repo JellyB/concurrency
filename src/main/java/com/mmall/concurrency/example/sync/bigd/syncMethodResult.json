@@ -1,20 +1,20 @@
-15:23:43.555 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:0
-15:23:43.566 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:1
-15:23:43.566 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:2
-15:23:43.566 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:3
-15:23:43.566 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:4
-15:23:43.566 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:5
-15:23:43.566 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:6
-15:23:43.566 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:7
-15:23:43.566 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:8
-15:23:43.566 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:9
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:0
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:1
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:2
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:3
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:4
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:5
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:6
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:7
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:8
-15:23:43.566 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:9
+15:46:44.853 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:0, >>>> current object:object 1
+15:46:44.864 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:1, >>>> current object:object 1
+15:46:44.864 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:2, >>>> current object:object 1
+15:46:44.864 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:3, >>>> current object:object 1
+15:46:44.864 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:4, >>>> current object:object 1
+15:46:44.864 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:5, >>>> current object:object 1
+15:46:44.864 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:6, >>>> current object:object 1
+15:46:44.864 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:7, >>>> current object:object 1
+15:46:44.864 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:8, >>>> current object:object 1
+15:46:44.865 [pool-1-thread-1] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:9, >>>> current object:object 1
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:0, >>>> current object:object 2
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:1, >>>> current object:object 2
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:2, >>>> current object:object 2
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:3, >>>> current object:object 2
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:4, >>>> current object:object 2
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:5, >>>> current object:object 2
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:6, >>>> current object:object 2
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:7, >>>> current object:object 2
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:8, >>>> current object:object 2
+15:46:44.865 [pool-1-thread-2] INFO com.mmall.concurrency.example.sync.bigd.SynchronizedCodeBlockAndMethod - syncMethod current value:9, >>>> current object:object 2
