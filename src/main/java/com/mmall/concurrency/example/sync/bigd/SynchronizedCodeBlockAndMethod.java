@@ -27,7 +27,7 @@ public class SynchronizedCodeBlockAndMethod {
     /**
      * synchronized 修饰一个方法
      */
-    private synchronized void syncMethod(){
+    private synchronized void syncMethod(String object){
         for (int i = 0; i < 10; i ++){
             log.info("syncMethod current value:{}", i);
         }
@@ -37,10 +37,18 @@ public class SynchronizedCodeBlockAndMethod {
         SynchronizedCodeBlockAndMethod synchronizedCodeBlockAndMethod1 = new SynchronizedCodeBlockAndMethod();
         SynchronizedCodeBlockAndMethod synchronizedCodeBlockAndMethod2 = new SynchronizedCodeBlockAndMethod();
         ExecutorService pool =  new ThreadPoolExecutor(10, 20, 10, TimeUnit.SECONDS, new LinkedBlockingDeque<>(30));
-        pool.execute( () -> synchronizedCodeBlockAndMethod1.synCodeBlock("object 1"));
-        pool.execute( () -> synchronizedCodeBlockAndMethod2.synCodeBlock("object 2"));
-        //pool.execute( () -> method.syncMethod());
-        //pool.execute( () -> method.syncMethod());
+        // 测试修饰同步代码块使用同一个对象
+        //pool.execute( () -> synchronizedCodeBlockAndMethod1.synCodeBlock("object 1"));
+        //pool.execute( () -> synchronizedCodeBlockAndMethod1.synCodeBlock("object 1"));
+        // 测试修饰同步代码块使用不同的对象访问
+        //pool.execute( () -> synchronizedCodeBlockAndMethod1.synCodeBlock("object 1"));
+        //pool.execute( () -> synchronizedCodeBlockAndMethod2.synCodeBlock("object 2"));
+        // 测试修饰方法使用同一个对象
+        //pool.execute( () -> synchronizedCodeBlockAndMethod1.syncMethod("object 1"));
+        //pool.execute( () -> synchronizedCodeBlockAndMethod1.syncMethod("object 1"));
+        // 测试修饰方法使用不同的个对象
+        pool.execute( () -> synchronizedCodeBlockAndMethod1.syncMethod("object 1"));
+        pool.execute( () -> synchronizedCodeBlockAndMethod2.syncMethod("object 2"));
 
     }
 }
