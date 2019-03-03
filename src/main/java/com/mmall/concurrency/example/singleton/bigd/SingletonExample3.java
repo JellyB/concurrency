@@ -1,5 +1,6 @@
 package com.mmall.concurrency.example.singleton.bigd;
 
+import com.mmall.concurrency.annoations.NotRecommend;
 import com.mmall.concurrency.annoations.ThreadSafe;
 
 /**
@@ -10,6 +11,7 @@ import com.mmall.concurrency.annoations.ThreadSafe;
  **/
 
 @ThreadSafe
+@NotRecommend
 public class SingletonExample3 {
 
     /**
