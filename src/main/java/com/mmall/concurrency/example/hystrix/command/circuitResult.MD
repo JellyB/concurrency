@@ -117,3 +117,9 @@
 18:24:30.132 [main] INFO com.mmall.concurrency.example.hystrix.command.HystrixCommandCircuitBreaker - ---------   fallback 49
 
 ```
+
+#### 如何恢复
+
+时间窗口过后，断路器处于半开状态，这时候会放入 **一个** 请求进来
+    如果成功，断路器 close
+    如果失败，断路器 继续 open 
