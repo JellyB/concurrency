@@ -1,5 +1,6 @@
 package com.mmall.concurrency.example.concurrent.bigd;
 
+import com.mmall.concurrency.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.*;
@@ -11,6 +12,7 @@ import java.util.concurrent.*;
  * Create time 2019-05-08 3:19 PM
  **/
 @Slf4j
+@ThreadSafe
 public class CopyOnWriteArrayListExample {
 
     // 请求总数
