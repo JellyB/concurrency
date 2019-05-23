@@ -7,7 +7,6 @@
 *.tar
 *.tar.gz
 
-
 # plugin ignore
 rebel.xml
 
