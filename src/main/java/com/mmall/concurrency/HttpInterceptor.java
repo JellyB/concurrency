@@ -13,7 +13,7 @@ public class HttpInterceptor extends HandlerInterceptorAdapter {
     //接口处理之前
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        log.info("preHandle");
+        //log.info("preHandle");
         //如果返回 false 后面的流程就没法处理了
         return true;
     }
@@ -22,7 +22,7 @@ public class HttpInterceptor extends HandlerInterceptorAdapter {
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         RequestHolder.remove();
-        log.info("afterCompletion");
+        //log.info("afterCompletion");
         return;
     }
 }
