@@ -28,6 +28,8 @@ public class GuavaCacheSimple1 {
     private static String VALUE  = "aty";
 
     private static CountDownLatch countDownLatch = new CountDownLatch(1);
+
+    // 1s 内没有访问则缓存过期，每次加载一个 key 需要耗时 2 s
     public static LoadingCache<String, String> cache = CacheBuilder.newBuilder().expireAfterAccess(1, TimeUnit.SECONDS).build(new CacheLoader<String, String>() {
 
         @Override
@@ -55,6 +57,7 @@ public class GuavaCacheSimple1 {
         for(int i = 0 ; i < THREAD_LOAD; i ++){
             startNewThread(i);
         }
+        // 放行线程
         countDownLatch.countDown();
 
     }
