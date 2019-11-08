@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="493ac365-e706-46aa-b5e8-030b398971dc" name="Default" comment="java interview">
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/interview/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/Example1.MD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.MD" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple4.MD" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaSimpleDemo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/concurrency.iml" afterPath="$PROJECT_DIR$/concurrency.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaSimpleDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,30 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/interview/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyclicBarrierExample1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/aqs/CyclicBarrierExample1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CountDownLatch.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="0">
               <caret line="36" column="52" lean-forward="false" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
               <folding />
             </state>
@@ -63,38 +42,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuavaSimpleDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaSimpleDemo.java">
+      <file leaf-file-name="GuavaCacheSimple3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuavaCacheSimple1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#967#1306#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example1.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/Example1.MD">
+      <file leaf-file-name="GuavaCacheSimple4.MD" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple4.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="80">
-                <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <first_editor relative-caret-position="40">
+                <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -105,12 +68,56 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GuavaCacheSimple3.MD" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-27">
+                <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuavaSimpleDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaSimpleDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuavaCacheSimple1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="64" column="15" lean-forward="true" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1009#1348#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GuavaCacheSimple2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="212">
+              <caret line="42" column="99" lean-forward="false" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/cache/RedisClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/cache/CacheController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/cache/RedisConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/mq/kafka/TopicConstants.java" />
@@ -218,6 +224,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/Example1.MD" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple4.MD" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.MD" />
       </list>
     </option>
   </component>
@@ -249,7 +258,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -628,9 +637,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -697,7 +705,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -730,6 +739,9 @@
       <recent name="com.mmall.concurrency.example.hystrix.command" />
       <recent name="com.mmall.concurrency.example.rateLimiter" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -743,7 +755,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuavaCacheSimple1">
+  <component name="RunManager" selected="Application.GuavaCacheSimple3">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -770,14 +782,14 @@
       <module name="concurrency" />
       <envs />
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GuavaCacheSimple3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.mmall.concurrency.interview.question17.*" />
+          <option name="PATTERN" value="com.mmall.concurrency.test.guava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.interview.question17.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.test.guava.GuavaCacheSimple3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -789,14 +801,14 @@
       <module name="concurrency" />
       <envs />
     </configuration>
-    <configuration name="MasterSlaveThreadTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.mmall.concurrency.interview.question17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.interview.MasterSlaveThreadTest2" />
+      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.interview.question17.MainTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -928,19 +940,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConcurrencyApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MasterSlaveThreadTest2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PhilosopherEatingTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MainTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.GuavaCacheSimple1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PhilosopherEatingTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MainTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GuavaCacheSimple1" />
+      <item index="5" class="java.lang.String" itemvalue="Application.GuavaCacheSimple3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GuavaCacheSimple1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PhilosopherEatingTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MasterSlaveThreadTest2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GuavaCacheSimple3" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GuavaCacheSimple1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PhilosopherEatingTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -974,6 +986,7 @@
       <workItem from="1571299453948" duration="2435000" />
       <workItem from="1571390942073" duration="4603000" />
       <workItem from="1573193753408" duration="3907000" />
+      <workItem from="1573203504822" duration="4693000" />
     </task>
     <task id="LOCAL-00001" summary="redis client example">
       <created>1561715841907</created>
@@ -1028,10 +1041,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59773000" />
+    <option name="totallyTimeSpent" value="64466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1048,19 +1061,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2800926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3846154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37451738" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32303733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Codota" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12355212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23938224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35907337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22278298" sideWeight="0.4878788" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16077866" sideWeight="0.4878788" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1137,22 +1150,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE-sources.jar!/org/springframework/cloud/client/CommonsClientAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.3.0.RELEASE/spring-cloud-commons-1.3.0.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/hystrix/command/HystrixController1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/hystrix/command/HystrixController2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/hystrix/command/HystrixCommand4Semaphore.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1296,12 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#268#269#0" expanded="false" />
-            <element signature="e#296#297#0" expanded="false" />
-            <element signature="e#677#678#0" expanded="false" />
-            <element signature="e#716#717#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1352,9 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1362,11 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
           <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1334#1335#0" expanded="false" />
-            <element signature="e#1374#1375#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1407,7 +1390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/interview/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="420">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
@@ -1423,7 +1406,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="0">
           <caret line="36" column="52" lean-forward="false" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
           <folding />
         </state>
@@ -1433,14 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="395" column="40" lean-forward="false" selection-start-line="395" selection-start-column="40" selection-end-line="395" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1464,9 +1439,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/Example1.MD" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaSimpleDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="568">
           <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1474,19 +1450,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple2.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="372">
+          <caret line="395" column="40" lean-forward="false" selection-start-line="395" selection-start-column="40" selection-end-line="395" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/Example1.MD">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="64" column="15" lean-forward="true" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1009#1348#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="42" column="99" lean-forward="false" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple4.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="80">
-            <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <first_editor relative-caret-position="40">
+            <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1496,16 +1494,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#967#1306#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="43" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-27">
+            <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm">
+        <state />
       </provider>
     </entry>
   </component>
