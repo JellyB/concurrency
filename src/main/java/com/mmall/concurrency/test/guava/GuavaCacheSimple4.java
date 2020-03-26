@@ -36,7 +36,7 @@ public class GuavaCacheSimple4 {
 
     private static int THREAD_LOAD = 10;
     private static String KEY = "name";
-    private static String VALUE  = "bigDev";
+    private static String VALUE  = "毕经之谈";
 
     private static CountDownLatch countDownLatch = new CountDownLatch(1);
 
