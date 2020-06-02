@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="493ac365-e706-46aa-b5e8-030b398971dc" name="Default" comment="java interview">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/concurrency_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/concurrency_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="493ac365-e706-46aa-b5e8-030b398971dc" name="Default" comment="我是毕经之谈！">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/gayHub/redLimiter/CreateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/gayHub/redLimiter/RedLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/RedLimiter.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mmall/concurrency/gayHub/redLimiter/RedLimiterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava/GuavaCacheSimple3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +25,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>fail1</find>
-      <find>rollingStats</find>
-      <find>Semaphore</find>
-      <find>volatile</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -49,10 +40,6 @@
         <option name="userSettingsFile" value="$PROJECT_DIR$/../../maven/settings/huatu-settings.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
   </component>
   <component name="ProjectId" id="1V3iwd84k2vYktIk3RcrsfyKFe0" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -432,9 +419,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -444,17 +431,19 @@
       <recent name="com.mmall.concurrency.example.hystrix" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mmall.concurrency.gayHub.redLimiter" />
       <recent name="com.mmall.concurrency.test.guava" />
       <recent name="com.mmall.concurrency.test.distributeLock" />
       <recent name="com.mmall.concurrency.example.cache.guava" />
       <recent name="com.mmall.concurrency.interview" />
-      <recent name="com.mmall.concurrency.example.hystrix.command" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/gayHub/redLimiter" />
       <recent name="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/test/guava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuavaCacheSimple4">
+  <component name="RunManager" selected="JUnit.RedLimiterTest.acquire">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -462,13 +451,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="FiboApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.interview.fibo.FiboApp" />
+    <configuration name="ConcurrentHashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.example.concurrent.ConcurrentHashMapExample" />
       <module name="concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mmall.concurrency.interview.fibo.*" />
+          <option name="PATTERN" value="com.mmall.concurrency.example.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -478,20 +467,6 @@
     </configuration>
     <configuration name="GuavaCacheSimple1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.test.guava.GuavaCacheSimple1" />
-      <module name="concurrency" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mmall.concurrency.test.guava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuavaCacheSimple2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.test.guava.GuavaCacheSimple2" />
       <module name="concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -538,6 +513,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedLimiterTest.acquire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.concurrency.gayHub.redLimiter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mmall.concurrency.gayHub.redLimiter" />
+      <option name="MAIN_CLASS_NAME" value="com.mmall.concurrency.gayHub.redLimiter.RedLimiterTest" />
+      <option name="METHOD_NAME" value="acquire" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -574,17 +566,17 @@
       <item itemvalue="Application.GuavaCacheSimple1" />
       <item itemvalue="Application.GuavaCacheSimple3" />
       <item itemvalue="Application.GuavaCacheSimple4" />
-      <item itemvalue="Application.FiboApp" />
+      <item itemvalue="Application.ConcurrentHashMapExample" />
       <item itemvalue="Spring Boot.ConcurrencyApplication" />
-      <item itemvalue="Application.GuavaCacheSimple2" />
+      <item itemvalue="JUnit.RedLimiterTest.acquire" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedLimiterTest.acquire" />
+        <item itemvalue="Application.ConcurrentHashMapExample" />
+        <item itemvalue="Application.GuavaCacheSimple1" />
         <item itemvalue="Application.GuavaCacheSimple4" />
         <item itemvalue="Application.GuavaCacheSimple3" />
-        <item itemvalue="Application.GuavaCacheSimple2" />
-        <item itemvalue="Application.GuavaCacheSimple1" />
-        <item itemvalue="Application.FiboApp" />
       </list>
     </recent_temporary>
   </component>
@@ -628,7 +620,11 @@
       <workItem from="1571390942073" duration="4603000" />
       <workItem from="1573193753408" duration="3907000" />
       <workItem from="1573203504822" duration="7527000" />
-      <workItem from="1585218206997" duration="1086000" />
+      <workItem from="1585218206997" duration="6867000" />
+      <workItem from="1585279588369" duration="71000" />
+      <workItem from="1588846724014" duration="2888000" />
+      <workItem from="1590995342702" duration="336000" />
+      <workItem from="1591077282399" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="redis client example">
       <created>1561715841907</created>
@@ -693,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573211283755</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="我是毕经之谈！">
+      <created>1585219565250</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585219565250</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,44 +712,73 @@
     <MESSAGE value="基于 redis 实现的分布式锁" />
     <MESSAGE value="如果缓存过期，返回旧值，异步获取新值添加到缓存中" />
     <MESSAGE value="缓存过期 -&gt; 返回旧值 -&gt; 异步获取新值放入缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="缓存过期 -&gt; 返回旧值 -&gt; 异步获取新值放入缓存" />
+    <MESSAGE value="我是毕经之谈！" />
+    <option name="LAST_COMMIT_MESSAGE" value="我是毕经之谈！" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1740" height="541" key="GridCell.Tab.0.bottom" timestamp="1585219360276">
+    <state x="460" y="124" key="#Project_Structure" timestamp="1591077473499">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="460" y="124" key="#Project_Structure/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1591077473499" />
+    <state x="443" y="96" key="CommitChangelistDialog2" timestamp="1589005277243">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1740" height="541" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585219360276" />
-    <state width="1740" height="541" key="GridCell.Tab.0.center" timestamp="1585219360274">
+    <state x="443" y="96" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1589005277243" />
+    <state x="175" y="101" key="DiffContextDialog" timestamp="1589005274338">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1740" height="541" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585219360274" />
-    <state width="1740" height="541" key="GridCell.Tab.0.left" timestamp="1585219360273">
+    <state x="175" y="101" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1589005274338" />
+    <state width="1868" height="311" key="GridCell.Tab.0.bottom" timestamp="1591077918817">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1740" height="326" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585279658540" />
+    <state width="1868" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1591077918817" />
+    <state width="1868" height="311" key="GridCell.Tab.0.center" timestamp="1591077918814">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1740" height="326" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585279658538" />
+    <state width="1868" height="311" key="GridCell.Tab.0.center/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1591077918814" />
+    <state width="1868" height="311" key="GridCell.Tab.0.left" timestamp="1591077918813">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1740" height="326" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585279658538" />
+    <state width="1868" height="311" key="GridCell.Tab.0.left/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1591077918813" />
+    <state width="1868" height="311" key="GridCell.Tab.0.right" timestamp="1591077918816">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1740" height="326" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585279658539" />
+    <state width="1868" height="311" key="GridCell.Tab.0.right/0.0.1920.1080/0.1080.1792.1120@0.0.1920.1080" timestamp="1591077918816" />
+    <state width="1740" height="326" key="GridCell.Tab.1.bottom" timestamp="1585279658543">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1740" height="541" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585219360273" />
-    <state width="1740" height="541" key="GridCell.Tab.0.right" timestamp="1585219360275">
+    <state width="1740" height="326" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585279658543" />
+    <state width="1740" height="326" key="GridCell.Tab.1.center" timestamp="1585279658542">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1740" height="541" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585219360275" />
-    <state width="1740" height="541" key="GridCell.Tab.1.bottom" timestamp="1585219360209">
+    <state width="1740" height="326" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585279658542" />
+    <state width="1740" height="326" key="GridCell.Tab.1.left" timestamp="1585279658541">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1740" height="541" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585219360209" />
-    <state width="1740" height="541" key="GridCell.Tab.1.center" timestamp="1585219360206">
+    <state width="1740" height="326" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585279658541" />
+    <state width="1740" height="326" key="GridCell.Tab.1.right" timestamp="1585279658542">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1740" height="541" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585219360206" />
-    <state width="1740" height="541" key="GridCell.Tab.1.left" timestamp="1585219360205">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1740" height="541" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585219360205" />
-    <state width="1740" height="541" key="GridCell.Tab.1.right" timestamp="1585219360208">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1740" height="541" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585219360208" />
+    <state width="1740" height="326" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585279658542" />
     <state x="256" y="39" key="SettingsEditor" timestamp="1585218241433">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="256" y="39" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1585218241433" />
+    <state x="396" y="222" key="Vcs.Push.Dialog.v2" timestamp="1585219567084">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="396" y="222" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1585219567084" />
+    <state x="500" y="273" width="792" height="574" key="find.popup" timestamp="1588846822307">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="500" y="273" width="792" height="574" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1588846822307" />
+    <state x="477" y="88" width="838" height="1032" key="search.everywhere.popup" timestamp="1588903623152">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="477" y="88" width="838" height="1032" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1588903623152" />
   </component>
 </project>
