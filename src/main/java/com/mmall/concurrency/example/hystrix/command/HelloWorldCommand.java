@@ -25,7 +25,7 @@ public class HelloWorldCommand extends HystrixCommand<String>{
 
     @Override
     protected String run() throws Exception {
-        //TimeUnit.SECONDS.sleep(10);
+        TimeUnit.SECONDS.sleep(10);
         return "hello " + name + "thread name " + Thread.currentThread().getName();
     }
 
