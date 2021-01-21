@@ -21,7 +21,8 @@ import java.util.concurrent.TimeUnit;
 public class GuavaCacheSimple1 {
 
     // 设想高并发下的一种场景：假设我们将 name = aty 存放到缓存中，并设置过期时间
-    // 当缓存过期后，恰巧有 10 个客户端发起请求，需要获取 name 的值，使用 Guava Cache 可以保证只让一个去加载数据（从 数据库中或其他），而其他线程则等待这个线程的返回结果。这样就能避免大量用户请求穿透缓存
+    // 当缓存过期后，恰巧有 10 个客户端发起请求，需要获取 name 的值，使用 Guava Cache 可以保证只让一个去加载数据（从 数据库中或其他），
+    // 而其他线程则等待这个线程的返回结果。这样就能避免大量用户请求穿透缓存
 
     private static int THREAD_LOAD = 10;
     private static String KEY = "name";
@@ -53,7 +54,7 @@ public class GuavaCacheSimple1 {
         cache.put(KEY, VALUE);
 
         // 休眠两秒，让缓存过期
-        TimeUnit.MILLISECONDS.sleep(1500);
+        TimeUnit.MILLISECONDS.sleep(2000);
         for(int i = 0 ; i < THREAD_LOAD; i ++){
             startNewThread(i);
         }
